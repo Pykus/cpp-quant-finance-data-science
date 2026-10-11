@@ -1,17 +1,28 @@
-# C++ for Systems, Embedded, and GPU Programming
+# Quantitative Finance, Statistics & Data Science in C++
 
-A practical, incremental C++ course covering modern C++ fundamentals and progressing toward embedded development, low-level systems programming, Linux kernel drivers, and CUDA C++.
+A practical C++17/20/23 learning repository **primarily focused on quantitative finance, quantitative science, statistics, numerical computing, and data science**. Systems engineering, embedded Linux, networking, and GPU computing remain supporting tracks rather than the main focus.
 
-## Lessons
+## Publication priorities
 
-1. [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/)
+- **At least two-thirds of new C++ learning publications**: quantitative finance, probability, statistical inference, time series, numerical methods, stochastic simulation, risk modeling, scientific computing, and data science.
+- **At most one-third**: general modern C++, systems programming, Linux, embedded/RTOS, networking, Yocto, and GPU computing.
+- Every quantitative example should explain its mathematical assumptions, use reproducible synthetic or appropriately licensed data, include numerical correctness tests and edge cases, and avoid unsupported investment-performance claims.
+- Examples are educational and do not constitute investment advice or production trading systems.
 
-## Roadmap
+## Quantitative roadmap (primary)
 
-1. **Foundations:** types, pointers, references, object lifetime, RAII, move semantics.
-2. **Advanced C++:** templates, `constexpr`, memory models, atomics, concurrency.
-3. **Embedded:** memory-mapped I/O, registers, `volatile`, memory barriers, freestanding builds, cross-compilation.
-4. **Linux kernel:** device drivers, modules, synchronization, DMA. Linux kernel drivers are generally written in C, not C++; examples will use the appropriate language.
-5. **CUDA C++:** GPU kernels, memory hierarchy, synchronization, profiling.
+1. **Mathematical foundations:** linear algebra, calculus, probability, descriptive statistics, distributions, and statistical inference.
+2. **Numerical C++:** floating-point error, numerical stability, integration, root finding, optimization, and reproducible simulations.
+3. **Statistical data science:** regression, hypothesis testing, confidence intervals, time series, model validation, and data pipelines.
+4. **Quantitative finance:** compound returns, discounting, option pricing, Monte Carlo methods, portfolio risk, VaR, and scenario analysis.
+5. **Quantitative engineering:** profiling, performance optimization, parallel numerical computation, backtesting without look-ahead bias, and careful benchmarking.
 
-Each lesson includes a runnable example, build instructions, expected output, common pitfalls, and a focused exercise.
+## Supporting C++ roadmap (secondary)
+
+Modern C++ language fundamentals, STL, RAII, templates, concurrency, CMake, testing, Linux, embedded/RTOS, cross-compilation, networking, Yocto, and CUDA C++. Linux kernel drivers are predominantly written in C rather than C++.
+
+## Published lessons
+
+1. [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — a foundational C++ lesson, originally written with an embedded example. It also establishes type-safety concepts useful in numerical software.
+
+Each future lesson should include a runnable example, build instructions, expected results, limitations, tests, and exercises. The quantitative track is the principal direction of this repository.
