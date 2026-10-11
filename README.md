@@ -1,32 +1,35 @@
 # Quantitative Finance, Statistics & Data Science in C++
 
-A practical C++17/20/23 learning repository **primarily focused on quantitative finance, quantitative science, statistics, numerical computing, and data science**. Systems engineering, embedded Linux, networking, and GPU computing remain supporting tracks rather than the main focus.
+Practical C++17/20/23 examples for quantitative finance, quantitative science, statistics, numerical computing, and data science.
 
-## Publication priorities
+Explore mathematical models through reproducible implementations, numerical validation, and clear explanations. The repository also includes modern C++ and systems-engineering foundations useful for reliable, high-performance software.
 
-- **At least two-thirds of new C++ learning publications**: quantitative finance, probability, statistical inference, time series, numerical methods, stochastic simulation, risk modeling, scientific computing, and data science.
-- **At most one-third**: general modern C++, systems programming, Linux, embedded/RTOS, networking, Yocto, and GPU computing.
-- Every quantitative example should explain its mathematical assumptions, use reproducible synthetic or appropriately licensed data, include numerical correctness tests and edge cases, and avoid unsupported investment-performance claims.
-- Examples are educational and do not constitute investment advice or production trading systems.
+## Quantitative Finance
 
-## Quantitative roadmap (primary)
+- Derivatives pricing and financial mathematics
+- Monte Carlo simulation and stochastic processes
+- Portfolio risk, scenario analysis, and time series
+- Numerical optimization and computational performance
 
-1. **Mathematical foundations:** linear algebra, calculus, probability, descriptive statistics, distributions, and statistical inference.
-2. **Numerical C++:** floating-point error, numerical stability, integration, root finding, optimization, and reproducible simulations.
-3. **Statistical data science:** regression, hypothesis testing, confidence intervals, time series, model validation, and data pipelines.
-4. **Quantitative finance:** compound returns, discounting, option pricing, Monte Carlo methods, portfolio risk, VaR, and scenario analysis.
-5. **Quantitative engineering:** profiling, performance optimization, parallel numerical computation, backtesting without look-ahead bias, and careful benchmarking.
+## Statistics & Data Science
 
-## Supporting C++ roadmap (secondary)
+- Probability distributions and statistical inference
+- Regression, confidence intervals, and hypothesis testing
+- Linear algebra and numerical methods
+- Reproducible experiments and model evaluation
 
-Modern C++ language fundamentals, STL, RAII, templates, concurrency, CMake, testing, Linux, embedded/RTOS, cross-compilation, networking, Yocto, and CUDA C++. Linux kernel drivers are predominantly written in C rather than C++.
+## Lessons
 
-## Quantitative lessons
+### Quantitative Finance
 
-1. [European call pricing with Monte Carlo and Black–Scholes](quant/01-monte-carlo-option-pricing/) — antithetic sampling, standard errors, confidence intervals, analytical benchmark and tests.
+1. [European call option pricing: Monte Carlo and Black–Scholes](quant/01-monte-carlo-option-pricing/) — antithetic variates, standard errors, confidence intervals, analytical comparison, and tests.
 
-## Published lessons
+### C++ Foundations
 
-1. [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — a foundational C++ lesson, originally written with an embedded example. It also establishes type-safety concepts useful in numerical software.
+1. [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — integer types, safe conversions, and compile-time checks.
 
-Each future lesson should include a runnable example, build instructions, expected results, limitations, tests, and exercises. The quantitative track is the principal direction of this repository.
+## Additional Engineering Topics
+
+Modern C++, STL, RAII, templates, concurrency, CMake, Linux, embedded development, networking, and GPU computing.
+
+**Note:** Financial examples are educational, use simplified models, and are not investment advice or production trading systems.
