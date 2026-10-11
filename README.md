@@ -1,35 +1,20 @@
 # Quantitative Finance, Statistics & Data Science in C++
 
-Practical C++17/20/23 examples for quantitative finance, quantitative science, statistics, numerical computing, and data science.
+A beginner-friendly C++ learning repository covering quantitative finance, statistics, numerical methods, and data science.
 
-Explore mathematical models through reproducible implementations, numerical validation, and clear explanations. The repository also includes modern C++ and systems-engineering foundations useful for reliable, high-performance software.
+**New to quantitative finance? Start with Lesson 00.** Each lesson builds on the previous one with plain-language explanations, worked examples, runnable C++ code, and exercises.
 
-## Quantitative Finance
+## Start learning: Quantitative Finance
 
-- Derivatives pricing and financial mathematics
-- Monte Carlo simulation and stochastic processes
-- Portfolio risk, scenario analysis, and time series
-- Numerical optimization and computational performance
+1. **[Lesson 00 — Your first option calculation](quant/00-option-basics/)**: What is a call option? What are a strike price and payoff? Calculate simple examples in C++17. **No finance background needed.**
+2. **[Lesson 01 — From option payoffs to Monte Carlo](quant/01-monte-carlo-option-pricing/)**: Why simulate possible future prices? Learn averages, model inputs, discounting, simulation uncertainty, and the Black–Scholes reference step by step.
 
-## Statistics & Data Science
+## C++ Foundations
 
-- Probability distributions and statistical inference
-- Regression, confidence intervals, and hypothesis testing
-- Linear algebra and numerical methods
-- Reproducible experiments and model evaluation
+- [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — integer types, checked conversions, and compile-time assertions.
 
-## Lessons
+## Other Topics
 
-### Quantitative Finance
+Statistics, probability, regression, time series, numerical computing, performance engineering, modern C++, Linux, embedded systems, and GPU computing.
 
-1. [European call option pricing: Monte Carlo and Black–Scholes](quant/01-monte-carlo-option-pricing/) — antithetic variates, standard errors, confidence intervals, analytical comparison, and tests.
-
-### C++ Foundations
-
-1. [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — integer types, safe conversions, and compile-time checks.
-
-## Additional Engineering Topics
-
-Modern C++, STL, RAII, templates, concurrency, CMake, Linux, embedded development, networking, and GPU computing.
-
-**Note:** Financial examples are educational, use simplified models, and are not investment advice or production trading systems.
+The financial examples are educational and use simplified models; they are not investment advice or production trading systems.
