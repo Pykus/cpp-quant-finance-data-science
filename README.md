@@ -21,6 +21,10 @@ A practical C++17/20/23 learning repository **primarily focused on quantitative 
 
 Modern C++ language fundamentals, STL, RAII, templates, concurrency, CMake, testing, Linux, embedded/RTOS, cross-compilation, networking, Yocto, and CUDA C++. Linux kernel drivers are predominantly written in C rather than C++.
 
+## Quantitative lessons
+
+1. [European call pricing with Monte Carlo and Black–Scholes](quant/01-monte-carlo-option-pricing/) — antithetic sampling, standard errors, confidence intervals, analytical benchmark and tests.
+
 ## Published lessons
 
 1. [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — a foundational C++ lesson, originally written with an embedded example. It also establishes type-safety concepts useful in numerical software.

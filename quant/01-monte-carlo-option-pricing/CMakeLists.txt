@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(quant_monte_carlo_call LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(quant_call main.cpp)
+add_executable(quant_call_tests tests.cpp)
+enable_testing()
+add_test(NAME quant_call_tests COMMAND quant_call_tests)
