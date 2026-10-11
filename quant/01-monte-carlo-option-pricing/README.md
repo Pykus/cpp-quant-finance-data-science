@@ -51,4 +51,3 @@ The sample parameters are `S0=100`, `K=100`, `r=0.05`, `sigma=0.20`, `T=1`, with
 3. Implement a plain Monte Carlo estimator and compare its empirical variance with antithetic sampling across many seeds.
 4. Extend the model to continuous dividend yield `q` and verify the analytical formula.
 
-**AI disclosure:** This is an AI-assisted educational example, reviewed with compiled executable tests. No proprietary market data is included.
