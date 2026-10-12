@@ -8,6 +8,7 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 1. **[Lesson 00 — Your first option calculation](quant/00-option-basics/)**: What is a call option? What are a strike price and payoff? Calculate simple examples in C++17. **No finance background needed.**
 2. **[Lesson 01 — From option payoffs to Monte Carlo](quant/01-monte-carlo-option-pricing/)**: Why simulate possible future prices? Learn averages, model inputs, discounting, simulation uncertainty, and the Black–Scholes reference step by step.
+3. **[Lesson 02 — Discounted cash flows and NPV](quant/02-discounted-cash-flows/)**: Understand the discounting step, calculate the present value of future payments, and test a small C++17 net-present-value calculator using synthetic examples.
 
 ## C++ Foundations
 

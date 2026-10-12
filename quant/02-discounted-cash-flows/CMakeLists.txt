@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.16)
+project(discounted_cash_flows LANGUAGES CXX)
+
+add_library(discounting STATIC src/discounting.cpp)
+target_include_directories(discounting PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_compile_features(discounting PUBLIC cxx_std_17)
+
+if(MSVC)
+    target_compile_options(discounting PRIVATE /W4)
+else()
+    target_compile_options(discounting PRIVATE -Wall -Wextra -Wpedantic)
+endif()
+
+add_executable(dcf_demo src/main.cpp)
+target_link_libraries(dcf_demo PRIVATE discounting)
+
+include(CTest)
+if(BUILD_TESTING)
+    add_executable(discounting_tests tests/test_discounting.cpp)
+    target_link_libraries(discounting_tests PRIVATE discounting)
+    add_test(NAME unit_discounting COMMAND discounting_tests)
+    add_test(NAME example_output COMMAND dcf_demo)
+    set_tests_properties(example_output PROPERTIES PASS_REGULAR_EXPRESSION "NPV=86[.]70")
+    add_test(NAME invalid_cli_rate COMMAND dcf_demo not-a-number)
+    set_tests_properties(invalid_cli_rate PROPERTIES WILL_FAIL TRUE)
+endif()
