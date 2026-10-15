@@ -19,6 +19,7 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 1. [Descriptive statistics](statistics/01-descriptive-statistics/) — mean, median, and population variance.
 2. [Covariance and Pearson correlation](statistics/02-covariance-correlation/) — paired samples and association.
 3. [Simple linear regression](statistics/03-linear-regression/) — line fitting and interpreting a trend.
+4. [Z-scores and standardization](statistics/04-z-score-standardization/) — sample spread and comparing relative positions.
 
 ## C++ Foundations
 
