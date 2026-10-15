@@ -10,6 +10,16 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 2. **[Lesson 01 — From option payoffs to Monte Carlo](quant/01-monte-carlo-option-pricing/)**: Why simulate possible future prices? Learn averages, model inputs, discounting, simulation uncertainty, and the Black–Scholes reference step by step.
 3. **[Lesson 02 — Discounted cash flows and NPV](quant/02-discounted-cash-flows/)**: Understand the discounting step, calculate the present value of future payments, and test a small C++17 net-present-value calculator using synthetic examples.
 
+4. **[Lesson 03 — Bond price and Macaulay duration](quant/03-bond-duration/)**: Bond prices, cash flows, and payment timing.
+5. **[Lesson 04 — Portfolio returns](quant/04-portfolio-returns/)**: Weighted investment returns, with a full beginner's guide.
+6. **[Lesson 05 — Two-asset portfolio risk](quant/05-two-asset-portfolio-risk/)**: Sample variability, covariance, and diversification, with a [beginner's guide](quant/05-two-asset-portfolio-risk/BEGINNERS_GUIDE.md).
+
+## Statistics and Data Science
+
+1. [Descriptive statistics](statistics/01-descriptive-statistics/) — mean, median, and population variance.
+2. [Covariance and Pearson correlation](statistics/02-covariance-correlation/) — paired samples and association.
+3. [Simple linear regression](statistics/03-linear-regression/) — line fitting and interpreting a trend.
+
 ## C++ Foundations
 
 - [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — integer types, checked conversions, and compile-time assertions.
