@@ -25,6 +25,12 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 - [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — integer types, checked conversions, and compile-time assertions.
 
+## Systems Programming
+
+1. [RAII file ownership](systems/02-raii-file-handling/) — tie an open file handle to object lifetime.
+2. [Fixed-capacity ring buffer](systems/03-ring-buffer/) — FIFO storage with wraparound.
+3. [Safe binary message codec](systems/04-binary-message-codec/) — a tested C++20 packet format with network byte order, bounds checks and typed messages.
+
 ## Other Topics
 
 Statistics, probability, regression, time series, numerical computing, performance engineering, modern C++, Linux, embedded systems, and GPU computing.
