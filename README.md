@@ -14,6 +14,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 5. **[Lesson 04 — Portfolio returns](quant/04-portfolio-returns/)**: Weighted investment returns, with a full beginner's guide.
 6. **[Lesson 05 — Two-asset portfolio risk](quant/05-two-asset-portfolio-risk/)**: Sample variability, covariance, and diversification, with a [beginner's guide](quant/05-two-asset-portfolio-risk/BEGINNERS_GUIDE.md).
 
+7. **[Lesson 06 — Historical Sharpe ratio](quant/06-sharpe-ratio/)**: Compare monthly excess returns with sample variability using synthetic data and a [step-by-step beginner's guide](quant/06-sharpe-ratio/BEGINNERS_GUIDE.md).
+
 ## Statistics and Data Science
 
 1. [Descriptive statistics](statistics/01-descriptive-statistics/) — mean, median, and population variance.
