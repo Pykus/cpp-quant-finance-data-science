@@ -35,6 +35,7 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 1. [RAII file ownership](systems/02-raii-file-handling/) — tie an open file handle to object lifetime.
 2. [Fixed-capacity ring buffer](systems/03-ring-buffer/) — FIFO storage with wraparound.
 3. [Safe binary message codec](systems/04-binary-message-codec/) — a tested C++20 packet format with network byte order, bounds checks and typed messages.
+4. [Bounded blocking work queue](systems/06-bounded-blocking-queue/) — thread-safe multi-producer/multi-consumer processing, backpressure and graceful shutdown in C++20.
 
 ## Other Topics
 
