@@ -24,6 +24,7 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 3. [Simple linear regression](statistics/03-linear-regression/) — line fitting and interpreting a trend.
 4. [Z-scores and standardization](statistics/04-z-score-standardization/) — sample spread and comparing relative positions.
 5. [Standard error of the mean](statistics/05-standard-error-of-mean/) — uncertainty of an average under independent sampling, with a [first-year student guide](statistics/05-standard-error-of-mean/BEGINNERS_GUIDE.md).
+6. [Bootstrap confidence intervals](statistics/06-bootstrap-confidence-intervals/) — estimate uncertainty for means and medians by resampling, with a [first-year student guide](statistics/06-bootstrap-confidence-intervals/BEGINNERS_GUIDE.md).
 
 ## C++ Foundations
 
