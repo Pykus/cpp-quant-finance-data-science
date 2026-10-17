@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.16)
+project(quant_drawdown_lesson LANGUAGES CXX)
+
+add_executable(drawdown_demo main.cpp)
+add_executable(drawdown_tests tests.cpp)
+foreach(target IN ITEMS drawdown_demo drawdown_tests)
+    target_compile_features(${target} PRIVATE cxx_std_17)
+    set_target_properties(${target} PROPERTIES CXX_EXTENSIONS OFF)
+    if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+        target_compile_options(${target} PRIVATE -Wall -Wextra -Wpedantic -Werror)
+    endif()
+endforeach()
+
+enable_testing()
+add_test(NAME drawdown_tests COMMAND drawdown_tests)
