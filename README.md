@@ -16,6 +16,7 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 7. **[Lesson 06 — Historical Sharpe ratio](quant/06-sharpe-ratio/)**: Compare monthly excess returns with sample variability using synthetic data and a [step-by-step beginner's guide](quant/06-sharpe-ratio/BEGINNERS_GUIDE.md).
 8. **[Lesson 07 — Compounding and maximum drawdown](quant/07-compounding-and-drawdown/)**: Follow a fictional portfolio from one month to the next, calculate its worst fall from a past high, and learn the arithmetic with a [first-year student's guide](quant/07-compounding-and-drawdown/BEGINNERS_GUIDE.md).
+9. **[Lesson 08 - Historical VaR and expected shortfall](quant/08-historical-var-and-expected-shortfall/)**: Measure historical tail losses using empirical percentiles, weighted tail averages, and a [worked beginner guide](quant/08-historical-var-and-expected-shortfall/BEGINNERS_GUIDE.md).
 
 ## Statistics and Data Science
 
