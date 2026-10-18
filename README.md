@@ -37,6 +37,7 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 1. [RAII file ownership](systems/02-raii-file-handling/) — tie an open file handle to object lifetime.
 2. [Fixed-capacity ring buffer](systems/03-ring-buffer/) — FIFO storage with wraparound.
 3. [Safe binary message codec](systems/04-binary-message-codec/) — a tested C++20 packet format with network byte order, bounds checks and typed messages.
+4. [CRC-32 packet integrity](systems/05-crc32-integrity/) — protect serialized messages against accidental corruption with tested CRC-32 and examples.
 
 ## Other Topics
 
