@@ -18,6 +18,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 8. **[Lesson 07 — Compounding and maximum drawdown](quant/07-compounding-and-drawdown/)**: Follow a fictional portfolio from one month to the next, calculate its worst fall from a past high, and learn the arithmetic with a [first-year student's guide](quant/07-compounding-and-drawdown/BEGINNERS_GUIDE.md).
 9. **[Lesson 08 - Historical VaR and expected shortfall](quant/08-historical-var-and-expected-shortfall/)**: Measure historical tail losses using empirical percentiles, weighted tail averages, and a [worked beginner guide](quant/08-historical-var-and-expected-shortfall/BEGINNERS_GUIDE.md).
 
+10. **[Lesson 09 - EWMA volatility and one-day risk](quant/09-ewma-volatility/)**: Update volatility forecasts from observed returns, explore normal-model VaR/ES, and read the [first-year study guide](quant/09-ewma-volatility/BEGINNERS_GUIDE.md).
+
 ## Statistics and Data Science
 
 1. [Descriptive statistics](statistics/01-descriptive-statistics/) — mean, median, and population variance.
