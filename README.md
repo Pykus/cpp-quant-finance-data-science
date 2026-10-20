@@ -45,6 +45,7 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 2. [Fixed-capacity ring buffer](systems/03-ring-buffer/) — FIFO storage with wraparound.
 3. [Safe binary message codec](systems/04-binary-message-codec/) — a tested C++20 packet format with network byte order, bounds checks and typed messages.
 4. [Bounded TCP stream framing](systems/07-tcp-stream-framer/) — reconstruct complete messages from fragmented or coalesced byte streams with fixed-capacity buffers, a beginner's walkthrough, and error-path tests.
+5. [Unsigned varint codec for event feeds](systems/09-varint-codec/) — Encode and incrementally decode bounded 64-bit integers in C++20, with corruption checks, regression tests and a [first-year guide](systems/09-varint-codec/BEGINNERS_GUIDE.md).
 
 ## Other Topics
 
