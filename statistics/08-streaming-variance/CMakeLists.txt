@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(streaming_variance LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(streaming_variance main.cpp)
+add_executable(streaming_variance_tests tests.cpp)
+enable_testing()
+add_test(NAME streaming_variance_tests COMMAND streaming_variance_tests)

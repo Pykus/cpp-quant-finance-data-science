@@ -33,6 +33,7 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 6. [Bootstrap confidence intervals for the mean](statistics/06-bootstrap-mean-confidence-interval/) — use reproducible resampling to estimate uncertainty, with a [step-by-step beginners guide](statistics/06-bootstrap-mean-confidence-interval/BEGINNERS_GUIDE.md).
 
 7. [Robust outlier detection using MAD](statistics/07-robust-outlier-detection/) — Screen unusual sensor readings with a median-based modified z-score; includes a [beginner guide](statistics/07-robust-outlier-detection/BEGINNERS_GUIDE.md).
+8. [Streaming mean and variance](statistics/08-streaming-variance/) — Use stable one-pass Welford statistics to summarize service telemetry, merge independent worker summaries, and practice with a [beginner's guide](statistics/08-streaming-variance/BEGINNERS_GUIDE.md).
 
 ## C++ Foundations
 
