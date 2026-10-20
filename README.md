@@ -20,6 +20,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 10. **[Lesson 09 — EWMA volatility forecasts](quant/09-ewma-volatility/)**: Forecast next-day volatility and a simplified dollar VaR from weighted returns, with a [beginner's guide](quant/09-ewma-volatility/BEGINNERS_GUIDE.md).
 
+11. **[Lesson 10 — Black–Scholes implied volatility](quant/10-black-scholes-implied-volatility/)**: Invert observed European option prices using tested C++20 bisection, with a [first-year beginner's guide](quant/10-black-scholes-implied-volatility/BEGINNERS_GUIDE.md).
+
 ## Statistics and Data Science
 
 1. [Descriptive statistics](statistics/01-descriptive-statistics/) — mean, median, and population variance.
