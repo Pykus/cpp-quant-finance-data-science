@@ -22,6 +22,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 11. **[Lesson 10 — Black–Scholes implied volatility](quant/10-black-scholes-implied-volatility/)**: Invert observed European option prices using tested C++20 bisection, with a [first-year beginner's guide](quant/10-black-scholes-implied-volatility/BEGINNERS_GUIDE.md).
 
+12. **[Lesson 11 — Binomial option trees](quant/11-binomial-option-trees/)**: Value European and American options in C++20 and understand early exercise with a [beginner's guide](quant/11-binomial-option-trees/BEGINNERS_GUIDE.md).
+
 ## Statistics and Data Science
 
 1. [Descriptive statistics](statistics/01-descriptive-statistics/) — mean, median, and population variance.
@@ -33,6 +35,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 6. [Bootstrap confidence intervals for the mean](statistics/06-bootstrap-mean-confidence-interval/) — use reproducible resampling to estimate uncertainty, with a [step-by-step beginners guide](statistics/06-bootstrap-mean-confidence-interval/BEGINNERS_GUIDE.md).
 
 7. [Robust outlier detection using MAD](statistics/07-robust-outlier-detection/) — Screen unusual sensor readings with a median-based modified z-score; includes a [beginner guide](statistics/07-robust-outlier-detection/BEGINNERS_GUIDE.md).
+
+8. [Streaming covariance and correlation](statistics/09-online-covariance/) — Update paired metrics without retaining all rows, with a [beginner's guide](statistics/09-online-covariance/BEGINNERS_GUIDE.md).
 
 ## C++ Foundations
 
