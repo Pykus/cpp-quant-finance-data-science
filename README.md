@@ -37,6 +37,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 7. [Robust outlier detection using MAD](statistics/07-robust-outlier-detection/) — Screen unusual sensor readings with a median-based modified z-score; includes a [beginner guide](statistics/07-robust-outlier-detection/BEGINNERS_GUIDE.md).
 
+8. [Spearman rank correlation with ties](statistics/08-spearman-rank-correlation/) — Compare ranked survey variables with exact midranks, explicit input checks, C++20 tests, and a [worked beginner's guide](statistics/08-spearman-rank-correlation/BEGINNERS_GUIDE.md).
+
 ## C++ Foundations
 
 - [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — integer types, checked conversions, and compile-time assertions.
