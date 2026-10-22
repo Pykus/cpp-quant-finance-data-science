@@ -22,6 +22,9 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 11. **[Lesson 10 — Black–Scholes implied volatility](quant/10-black-scholes-implied-volatility/)**: Invert observed European option prices using tested C++20 bisection, with a [first-year beginner's guide](quant/10-black-scholes-implied-volatility/BEGINNERS_GUIDE.md).
 
+12. **[Lesson 11 — Binomial option trees](quant/11-binomial-option-trees/)**: Price European and American options with a risk-neutral tree and a [beginner's guide](quant/11-binomial-option-trees/BEGINNERS_GUIDE.md).
+13. **[Lesson 12 — Greeks and delta hedging](quant/12-black-scholes-greeks/)**: Price European options, compute delta/gamma/vega, cross-check sensitivities and hedge a signed position; includes a [first-year beginner's guide](quant/12-black-scholes-greeks/BEGINNERS_GUIDE.md).
+
 ## Statistics and Data Science
 
 1. [Descriptive statistics](statistics/01-descriptive-statistics/) — mean, median, and population variance.
