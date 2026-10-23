@@ -25,6 +25,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 12. **[Lesson 11 — Binomial option trees](quant/11-binomial-option-trees/)**: Price European and American options with a risk-neutral tree and a [beginner's guide](quant/11-binomial-option-trees/BEGINNERS_GUIDE.md).
 13. **[Lesson 12 — Greeks and delta hedging](quant/12-black-scholes-greeks/)**: Price European options, compute delta/gamma/vega, cross-check sensitivities and hedge a signed position; includes a [first-year beginner's guide](quant/12-black-scholes-greeks/BEGINNERS_GUIDE.md).
 
+14. **[Lesson 13 — Antithetic Monte Carlo variance reduction](quant/13-antithetic-monte-carlo/)**: Price European calls with mirrored random paths, a fair simulation-budget comparison, honest confidence intervals and a [first-year beginner's guide](quant/13-antithetic-monte-carlo/BEGINNERS_GUIDE.md).
+
 ## Statistics and Data Science
 
 1. [Descriptive statistics](statistics/01-descriptive-statistics/) — mean, median, and population variance.
