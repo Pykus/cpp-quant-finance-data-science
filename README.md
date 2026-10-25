@@ -57,6 +57,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 7. [Latency percentiles and tail behavior](systems/10-latency-percentiles/) — Capture p50/p99/p99.9 from synthetic C++20 durations, with a [beginner's guide](systems/10-latency-percentiles/BEGINNERS_GUIDE.md).
 
+8. [Streaming CRC-32 checksum](systems/11-streaming-crc32/) — Check accidental message corruption using incremental byte processing and a [beginner's guide](systems/11-streaming-crc32/BEGINNERS_GUIDE.md).
+
 ## Other Topics
 
 Statistics, probability, regression, time series, numerical computing, performance engineering, modern C++, Linux, embedded systems, and GPU computing.
