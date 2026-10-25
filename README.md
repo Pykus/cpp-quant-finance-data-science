@@ -47,6 +47,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 4. [Bounded TCP stream framing](systems/07-tcp-stream-framer/) — reconstruct complete messages from fragmented or coalesced byte streams with fixed-capacity buffers, a beginner's walkthrough, and error-path tests.
 5. [Bounded SPSC market event queue](systems/08-spsc-event-queue/) — transfer synthetic market data safely between a single producer and consumer using a fixed-capacity C++20 atomic ring, contention tests, benchmark, and [beginner's guide](systems/08-spsc-event-queue/BEGINNERS_GUIDE.md).
 
+6. [UDP sequence gap detector](systems/09-udp-sequence-gap-detector/) — Identify missing or late market-data sequence numbers with modular arithmetic and a [beginner's guide](systems/09-udp-sequence-gap-detector/BEGINNERS_GUIDE.md).
+
 ## Other Topics
 
 Statistics, probability, regression, time series, numerical computing, performance engineering, modern C++, Linux, embedded systems, and GPU computing.
