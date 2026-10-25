@@ -22,6 +22,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 14. **[Lesson 13 — Antithetic Monte Carlo variance reduction](quant/13-antithetic-monte-carlo/)**: Price European calls with mirrored random paths, a fair simulation-budget comparison, honest confidence intervals and a [first-year beginner's guide](quant/13-antithetic-monte-carlo/BEGINNERS_GUIDE.md).
 15. **[Lesson 14 — European put–call parity](quant/14-put-call-parity/)**: Check a no-arbitrage identity for matching European options with validated C++20 arithmetic and a [beginner's guide](quant/14-put-call-parity/BEGINNERS_GUIDE.md).
 
+16. **[Lesson 15 — Bond yield to maturity](quant/15-bond-yield-to-maturity/)**: Recover an annual bond's yield by tested bisection with a [beginner's guide](quant/15-bond-yield-to-maturity/BEGINNERS_GUIDE.md).
+
 ## Statistics and Data Science
 
 1. [Descriptive statistics](statistics/01-descriptive-statistics/) — mean, median, and population variance.
