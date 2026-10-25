@@ -37,6 +37,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 9. [Online mean and sample variance (Welford)](statistics/09-online-mean-variance/) — Numerically stable streaming moments, deterministic tests, and a [beginner's guide](statistics/09-online-mean-variance/BEGINNERS_GUIDE.md).
 
+10. [Empirical quantiles and quartiles](statistics/10-interpolated-quantiles/) — Type-7 interpolation, explicit edge cases, and a [beginner's guide](statistics/10-interpolated-quantiles/BEGINNERS_GUIDE.md).
+
 ## C++ Foundations
 
 - [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — integer types, checked conversions, and compile-time assertions.
