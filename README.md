@@ -53,6 +53,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 6. [UDP sequence gap detector](systems/09-udp-sequence-gap-detector/) — Identify missing or late market-data sequence numbers with modular arithmetic and a [beginner's guide](systems/09-udp-sequence-gap-detector/BEGINNERS_GUIDE.md).
 
+7. [Latency percentiles and tail behavior](systems/10-latency-percentiles/) — Capture p50/p99/p99.9 from synthetic C++20 durations, with a [beginner's guide](systems/10-latency-percentiles/BEGINNERS_GUIDE.md).
+
 ## Other Topics
 
 Statistics, probability, regression, time series, numerical computing, performance engineering, modern C++, Linux, embedded systems, and GPU computing.
