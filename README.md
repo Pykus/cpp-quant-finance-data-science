@@ -39,6 +39,8 @@ A beginner-friendly C++ learning repository covering quantitative finance, stati
 
 10. [Empirical quantiles and quartiles](statistics/10-interpolated-quantiles/) — Type-7 interpolation, explicit edge cases, and a [beginner's guide](statistics/10-interpolated-quantiles/BEGINNERS_GUIDE.md).
 
+11. [Welch's two-sample t-statistic](statistics/11-welch-t-statistic/) — Compare unequal-variance groups with tested C++20 and a [beginner's guide](statistics/11-welch-t-statistic/BEGINNERS_GUIDE.md).
+
 ## C++ Foundations
 
 - [Fixed-width integers and safe conversions](lessons/01-types-and-overflow/) — integer types, checked conversions, and compile-time assertions.
